@@ -5,7 +5,7 @@ module.exports = [
   ...config,
   eslintPlugin,
   {
-    ignores: ['**/.vitepress/cache/**/*', 'coverage/**/*'],
+    ignores: ['coverage/**/*'],
   },
   {
     rules: {
@@ -13,7 +13,7 @@ module.exports = [
     },
   },
   {
-    files: ['**/test/*', '**/rules/*', '**/docs/.vitepress/config.ts'],
+    files: ['**/test/*', '**/rules/*'],
     rules: {
       'perfectionist/sort-objects': 'off',
     },
