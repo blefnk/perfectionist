@@ -13,9 +13,9 @@ module.exports = [
     },
   },
   {
-    files: ['**/test/*', '**/rules/*'],
     rules: {
       'perfectionist/sort-objects': 'off',
     },
+    files: ['**/test/*', '**/rules/*'],
   },
 ]
